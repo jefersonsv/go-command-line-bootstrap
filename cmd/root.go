@@ -27,7 +27,7 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "go-cmd",
+	Use:   "<your.exe>",
 	Short: "Bootstrap to start go command line application",
 	Long: `This bootstrap help you to start a new command line application:
 
